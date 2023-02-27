@@ -67,7 +67,6 @@ fetch(url)
         });
 
         elem.addEventListener("mouseout", () => {
-          // document.getElementById("testData").textContent = "";
           popupBg.classList.remove("active");
           popup.classList.remove("active");
         });
